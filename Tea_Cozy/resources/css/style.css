@@ -1,0 +1,157 @@
+/* general styling */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: 22px Helvetica, sans-serif;
+  color: seashell;
+  background-color: #000;
+  text-align: center;
+}
+
+h2,
+h3,
+h4 {
+  padding: 10px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;  
+}
+
+/* Header and nav styling */
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 68px;
+  background-color: #000;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  padding-right: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+span a {
+  text-decoration: underline;
+  color: seashell;
+  padding: 20px 10px;
+}
+
+/* Main container styling */
+
+.main-container {
+  padding-top: 70px;
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+/* Mission Styling */
+
+.goal {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+}
+
+.goal-content {
+  background-color: #000;
+  width: 1200px;
+  display: block;
+}
+
+/* Selection Styling */
+
+.selection {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+}
+
+.selection-teas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+.tea span {
+  font-weight: bold;
+  padding: 5px;
+}
+
+/* Location Styling */
+
+.shops {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 60px;
+}
+
+.shops .flex-center {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+.location {
+  background-color: #000;
+  opacity: 1;
+  margin: 5px 20px;
+  width: 300px;
+  height: 300px;
+}
+
+.location p {
+  display: block;
+}
+
+/* Contact Styling */
+
+.info {
+  height: 200px;
+}
+
+/* Footer Styling */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
